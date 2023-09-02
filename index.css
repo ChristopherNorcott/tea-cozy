@@ -115,6 +115,7 @@ body{
     background-repeat: no-repeat; /* Prevents background image repetition */
     background-position: center; /* Center the background image */
     padding: 50px; /* Add padding to center content */
+    margin-top: 50px;
 }
 
 .locations {
