@@ -46,6 +46,13 @@ body{
     width: 1200px;
 }
 
+@media screen and (max-width: 768px) {
+    .one-main .mission img {
+        max-width: 100%; /* Limit the image's width to 100% of its container */
+        height: auto; /* Allow the image's height to adjust proportionally */
+    }
+}
+
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
     .one-main {
