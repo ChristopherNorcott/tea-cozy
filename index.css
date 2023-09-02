@@ -103,7 +103,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/Users/christophernorcott/Documents/Tea Cozy/resources/images/img-locations-background.jpg");
+    background-image: url("img-locations-background.jpg");
     background-size: cover; /* Ensures the background image covers the entire container */
     background-repeat: no-repeat; /* Prevents background image repetition */
     background-position: center; /* Center the background image */
