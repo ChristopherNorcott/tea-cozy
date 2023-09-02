@@ -1,0 +1,167 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: seashell;
+    text-align: center;
+}
+
+.headings{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+
+}
+
+.headings img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+.list{
+    display: inline-flex;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.mission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mission .img{
+    min-height: 700px;
+    min-width: 1200px;
+}
+
+.our-mission{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(27, 26, 26, 1);
+    width: 1200px;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .one-main {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .mission {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+    }
+
+    .our-mission {
+        width: 100%; /* Make the mission content width 100% on smaller screens */
+        text-align: center; /* Center text for smaller screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    /* Add more specific styling for smaller screens if needed */
+}
+
+.two-main{
+    display: flex;
+    justify-content: center;
+}
+
+.tea-month{
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.tea-month-columns ul{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tea-month-columns ul img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.tea-month-columns ul h4{
+    margin: 0px;
+}
+
+.three-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Users/christophernorcott/Documents/Tea Cozy/resources/images/img-locations-background.jpg");
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-repeat: no-repeat; /* Prevents background image repetition */
+    background-position: center; /* Center the background image */
+    padding: 50px; /* Add padding to center content */
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 80%; /* Adjust this width as needed */
+    text-align: center;
+    padding: 20px; /* Add padding to the content within the locations div */
+}
+
+.locations h2{
+    align-self: center;
+    margin-bottom: 0px;
+}
+
+.location-list{
+    display: flex;
+    align-self: center;
+}
+
+.location-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.location-list ul li {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.location-list ul li h4 {
+    margin: 0;
+}
+
+.four-main{
+    height: 200px;
+}
+
+.four-main ul{
+    list-style: none;
+}
+
+.copyright{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
