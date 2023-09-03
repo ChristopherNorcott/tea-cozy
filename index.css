@@ -6,6 +6,11 @@ body{
     margin: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: seashell;
+}
+
 .headings{
     display: flex;
     justify-content: space-between;
