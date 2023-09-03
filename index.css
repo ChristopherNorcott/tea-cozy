@@ -67,6 +67,8 @@ body{
         width: 100%; /* Make the mission content width 100% on smaller screens */
         text-align: center; /* Center text for smaller screens */
         padding: 20px; /* Adjust padding for smaller screens */
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     /* Add more specific styling for smaller screens if needed */
