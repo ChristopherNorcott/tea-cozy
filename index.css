@@ -31,6 +31,10 @@ a{
 }
 
 @media only screen and (max-width: 580px){
+    .headings{
+        justify-content: center;
+    }
+
     .headings img{
         position: absolute;
         margin-top: 1%;
