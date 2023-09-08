@@ -89,6 +89,17 @@ a{
     /* Add more specific styling for smaller screens if needed */
 }
 
+@media only screen and (max-width: 480px){
+    .our-mission{
+        height: 70px;
+    }
+
+    .our-mission h2, h4{
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
 .two-main{
     display: flex;
     justify-content: center;
