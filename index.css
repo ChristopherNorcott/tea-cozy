@@ -180,3 +180,9 @@ a{
     justify-content: flex-start;
     margin-left: 20px;
 }
+
+@media only screen and (max-width: 480px){
+    .headings{
+        justify-content: center;
+    }
+}
