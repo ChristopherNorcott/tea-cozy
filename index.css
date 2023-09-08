@@ -30,6 +30,16 @@ a{
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 480px){
+    .list{
+        padding-left: 20px;
+    }
+    
+    .headings{
+        justify-content: center;
+    }
+}
+
 .mission{
     display: flex;
     justify-content: center;
@@ -179,10 +189,4 @@ a{
     display: flex;
     justify-content: flex-start;
     margin-left: 20px;
-}
-
-@media only screen and (max-width: 480px){
-    .headings{
-        justify-content: center;
-    }
 }
