@@ -44,6 +44,7 @@ a{
 
     .list{
         margin-top: 12%;
+        margin-right: 2%;
         flex-direction: column;
         justify-content: center;
     }
